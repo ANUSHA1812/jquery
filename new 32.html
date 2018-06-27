@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <link rel="stylesheet",type="text/css" href="style1.css"> 
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+<script>
+$(document).ready(function(){
+$(".my").click(function(){
+$(".myy").show()
+
+});
+});
+
+</script>  
+<script>
+$(document).ready(function(){
+$(".my").dblclick(function(){
+$(".myy").hide()
+
+});
+});
+
+</script>    
+
+
+
+
+
+<script>
+$(document).ready(()=>
+{
+$(".s").click(()=>{
+$(".m").show(1);
+});
+});
+</script>
+<script>
+$(document).ready(()=>
+{
+$(".s").dblclick(()=>{
+$(".m").hide(1);
+});
+});
+</script>
+<script>
+$(document).ready(()=>
+{
+$(".t").click(()=>{
+$(".n").show(1);
+});
+});
+</script>
+<script>
+$(document).ready(()=>
+{
+$(".t").dblclick(()=>{
+$(".n").hide(1);
+});
+});
+</script>
+
+<script>
+$(document).ready(()=>
+{
+$(".u").click(()=>{
+$(".o").show(1);
+});
+});
+</script>
+<script>
+$(document).ready(()=>
+{
+$(".u").dblclick(()=>{
+$(".o").hide(1);
+});
+});
+
+
+
+</script>
+</head>
+<body>
+<div class="res">
+<div class="flex-container">
+  <div class="s"  ><b>Home</b> 
+  <div class="m">
+  <ul>
+  <li>Login</li>
+  <li>Sign Up</li>
+  <li>Support</li>
+  </ul>
+  </div>
+  </div>
+  <div class="t"><b>Destinations</b>
+  <div class="n">
+  <ul>
+  <li>College Tours</li>
+  <li>Family Tours</li>
+  <li>School  Tours</li>
+  </ul>
+  </div>
+  </div>
+  <div class="u" ><b>About Us</b>
+  
+  
+  <div class="o">
+  <ul>
+  <li>Our Team</li>
+  <li>Contact us</li>
+  
+  </ul>
+  </div>
+  </div>  
+</div>
+
+<div style="color:white">
+<p> WHY TRAVELLING..?????</p>
+<p > <i>Everyone has their very own reasons to travel.  Some people travel for work, some travel for pleasure while for others  it is just a way of life. They travel to live and to escape at the same  time. 
+
+ Whatever might be the reason to travel, here are few ways in which travelling would definitely change you and I think that is why travelling becomes so important in life: 
+
+Enjoy being alone
+ There is something therapeutic about being alone and being at  peace with it. While you soak in a new culture, you also connect with  your own inner self. </i>  </p>
+</div>
+<div class="me">
+<div style="background-image:tr.jpg";>
+<input class="my" type="button" name="but"  value="Places To Visit">
+<div class="myy" >  <ul> 
+<li> Bihar </li>
+<li> Goa </li>
+<li> Delhi </li>
+<li>Shimla </li>
+<li > Kasauli</li>
+<li> Agra </li>
+</ul>
+</div>
+<div class="pe">
+<p><u><b> SOME QUOTES</b></u> </p>
+<p style="color:white" class="cd">“The gladdest moment in human life, me thinks, is a departure 
+into unknown lands.” – <u>Sir Richard Burton</u></p>
+<p style="color:white" class="ef"> “Be fearless in the 
+pursuit of what sets your soul on fire.”
+ – <u>Jennifer Lee</u></p>
+<p style="color:white" class="gh"> “Travel makes one modest.
+ You see what a tiny place you occupy in the world.” -<u>Gustav Flaubert</u>
+</p>
+ 
+</div>
+
+<div >
+<button id="myBtn">More</button>
+
+
+<div id="myModal" class="modal">
+
+ 
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <center><p style="font-size:50px"><b>Hurry!!!</b></p></center>
+	<p style="font-size:50px"><i> Special Discounts Available...<i></p>
+	<br>
+	<p style="font-size:20px"> <i>Login to know more</i> </p>
+  </div>
+
+</div>
+</div>
+</div>
+<script>
+
+var modal = document.getElementById('myModal');
+
+
+var btn = document.getElementById("myBtn");
+
+var span = document.getElementsByClassName("close")[0];
+
+
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+
+</div>
+</body>
+</html>
